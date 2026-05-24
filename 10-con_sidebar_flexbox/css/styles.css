@@ -49,3 +49,29 @@ p {
 
 
 /** CODIGO AQUI **/
+
+@media (min-width: 768px) {
+    .con-sidebar {
+        display: flex;
+        gap: 4rem;
+    }
+    aside {
+        flex: 1;
+    }
+    article {
+        flex: 3;
+    }
+}
+
+/* @media (min-width: 768px) {
+    .con-sidebar {
+        display: flex;
+        justify-content: space-between;
+    }
+    aside {
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+    article {
+        flex: 0 0 calc(66.6% - 1rem);
+    }
+} */
